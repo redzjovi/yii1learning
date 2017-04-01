@@ -21,7 +21,7 @@ $this->menu=array(
 	'id'=>'users-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
-    'htmlOptions' => array('class' => 'table'),
+    'itemsCssClass' => 'table table-striped',
 	'columns'=>array(
 		'id',
 		'username',

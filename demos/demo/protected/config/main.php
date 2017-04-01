@@ -16,6 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+        'application.modules.itemMaster.models.*',
 	),
 
 	'modules'=>array(
@@ -26,6 +27,7 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
+        'itemMaster',
 	),
 
 	// application components
