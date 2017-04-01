@@ -25,6 +25,23 @@
 		<?php echo $form->error($model,'item_name'); ?>
 	</div>
 
+    <div class="row">
+        <?php echo $form->labelEx($model, 'created_date'); ?>
+        <?php $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+            'attribute' => 'created_date',
+            'model' => $model,
+            'name' => 'created_date',
+            'options' => array(
+                'showAnim' => 'slide',
+                'showButtonPanel' => true,
+                'dateFormat' => 'yy-m-d',
+            ),
+            'value' => $model->created_date,
+            'htmlOptions' => array('style' => ''),
+        )); ?>
+        <?php echo $form->error($model,'item_name'); ?>
+    </div>
+
 	<div class="row">
 		<?php echo $form->labelEx($model,'item_name'); ?>
 		<?php echo $form->textField($model,'item_name',array('size'=>50,'maxlength'=>50)); ?>

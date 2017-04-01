@@ -8,6 +8,7 @@
  * @property string $item_name
  * @property string $cost
  * @property string $selling
+ * @property string $created_date
  * @property integer $brands_brand_id
  *
  * The followings are the available model relations:
@@ -31,13 +32,13 @@ class Items extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('item_name, cost, selling, brands_brand_id', 'required'),
+			array('item_name, cost, selling, created_date, brands_brand_id', 'required'),
 			array('brands_brand_id', 'numerical', 'integerOnly'=>true),
 			array('item_name', 'length', 'max'=>50),
 			array('cost, selling', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('item_id, item_name, cost, selling, brands_brand_id', 'safe', 'on'=>'search'),
+			array('item_id, item_name, cost, selling, created_date, brands_brand_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -63,6 +64,7 @@ class Items extends CActiveRecord
 			'item_name' => 'Item Name',
 			'cost' => 'Cost',
 			'selling' => 'Selling',
+			'created_date' => 'Created Date',
 			'brands_brand_id' => 'Brands Brand',
 		);
 	}
@@ -89,6 +91,7 @@ class Items extends CActiveRecord
 		$criteria->compare('item_name',$this->item_name,true);
 		$criteria->compare('cost',$this->cost,true);
 		$criteria->compare('selling',$this->selling,true);
+		$criteria->compare('created_date',$this->created_date,true);
 		$criteria->compare('brands_brand_id',$this->brands_brand_id);
 
 		return new CActiveDataProvider($this, array(
