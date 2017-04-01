@@ -86,13 +86,14 @@ class Items extends CActiveRecord
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
+        $criteria->with = 'brandsBrand';
 
 		$criteria->compare('item_id',$this->item_id);
 		$criteria->compare('item_name',$this->item_name,true);
 		$criteria->compare('cost',$this->cost,true);
 		$criteria->compare('selling',$this->selling,true);
 		$criteria->compare('created_date',$this->created_date,true);
-		$criteria->compare('brands_brand_id',$this->brands_brand_id);
+		$criteria->compare('brandsBrand.brand_name', $this->brands_brand_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

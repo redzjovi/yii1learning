@@ -49,6 +49,12 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'item_name',
 		'cost',
 		'selling',
+        array(
+            'name' => 'brands_brand_id',
+            'value' => function($data) {
+                return $data->brandsBrand->brand_name;
+            },
+        ),
         'brandsBrand.brand_name',
 		array(
 			'class'=>'CButtonColumn',
