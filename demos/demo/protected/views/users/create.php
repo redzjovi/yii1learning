@@ -16,3 +16,18 @@ $this->menu=array(
 <h1>Create Users</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
+
+<?php $this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'users-grid',
+	'dataProvider'=>$model->search(),
+	'filter'=>$model,
+    'htmlOptions' => array('class' => 'table'),
+	'columns'=>array(
+		'id',
+		'username',
+		'password',
+		array(
+			'class'=>'CButtonColumn',
+		),
+	),
+)); ?>

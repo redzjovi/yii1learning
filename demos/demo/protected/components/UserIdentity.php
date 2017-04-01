@@ -30,7 +30,7 @@ class UserIdentity extends CUserIdentity
             $passwordHash = md5($password);
 
             if ($passwordHash == $user->password) {
-                die('success login');
+                $this->errorCode=self::ERROR_NONE;
             } else {
                 $this->errorCode=self::ERROR_PASSWORD_INVALID;
             }
