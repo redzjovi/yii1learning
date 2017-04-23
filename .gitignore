@@ -1,2 +1,6 @@
 /demos/demo/assets/*
 /demos/demo/protected/runtime/*
+/demos/demo-IterativeRedux/assets/*
+/demos/demo-IterativeRedux/protected/runtime/*
+
+.tags
