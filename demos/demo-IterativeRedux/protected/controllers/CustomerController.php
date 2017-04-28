@@ -4,7 +4,11 @@ class CustomerController extends Controller
 {
 	public function actionIndex()
 	{
-		$this->render('index');
+        $model = new Users;
+
+        $this->render('index', array(
+            'model' => $model,
+        ));
 	}
 
 	// Uncomment the following methods and override them if needed
@@ -33,4 +37,23 @@ class CustomerController extends Controller
 		);
 	}
 	*/
+
+    public function actionPassword()
+    {
+        if(Yii::app()->request->isAjaxRequest)
+        {
+            $users = Yii::app()->request->getParam('Users');
+            $user_id = $users['id'];
+
+            $user = Users::model()->findByPk($user_id);
+
+            echo CJSON::encode(array(
+                'error' => 'false',
+                'label_password' => $user->id,
+                'password' => $user->password
+            ));
+
+            Yii::app()->end();
+        }
+    }
 }
