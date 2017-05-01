@@ -1,0 +1,651 @@
+2017/04/19 12:49:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginasda".' in E:\xampp\htdocs\yii\yii1\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1\framework\web\CController.php(270): CController->missingAction('loginasda')
+#1 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(282): CController->run('loginasda')
+#2 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginasda')
+#3 E:\xampp\htdocs\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1/demos/demo-IterativeRedux/index.php?r=site/loginasda
+---
+2017/04/19 12:49:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginasda".' in E:\xampp\htdocs\yii\yii1\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1\framework\web\CController.php(270): CController->missingAction('loginasda')
+#1 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(282): CController->run('loginasda')
+#2 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginasda')
+#3 E:\xampp\htdocs\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1/demos/demo-IterativeRedux/index.php?r=site/loginasda
+---
+2017/04/19 12:49:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginasda".' in E:\xampp\htdocs\yii\yii1\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1\framework\web\CController.php(270): CController->missingAction('loginasda')
+#1 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(282): CController->run('loginasda')
+#2 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginasda')
+#3 E:\xampp\htdocs\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1/demos/demo-IterativeRedux/index.php?r=site/loginasda
+---
+2017/04/19 12:49:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginasda".' in E:\xampp\htdocs\yii\yii1\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1\framework\web\CController.php(270): CController->missingAction('loginasda')
+#1 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(282): CController->run('loginasda')
+#2 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginasda')
+#3 E:\xampp\htdocs\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1/demos/demo-IterativeRedux/index.php?r=site/loginasda
+---
+2017/04/19 12:49:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginasda".' in E:\xampp\htdocs\yii\yii1\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1\framework\web\CController.php(270): CController->missingAction('loginasda')
+#1 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(282): CController->run('loginasda')
+#2 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginasda')
+#3 E:\xampp\htdocs\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1/demos/demo-IterativeRedux/index.php?r=site/loginasda
+---
+2017/04/23 12:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "giit".' in E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('giit')
+#1 E:\xampp\htdocs\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1/demos/demo-IterativeRedux/index.php/giit
+---
+2017/04/23 12:53:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'yii1demo'' in E:\xampp\htdocs\yii\yii1\framework\db\CDbConnection.php:399
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 E:\xampp\htdocs\yii\yii1\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 E:\xampp\htdocs\yii\yii1\framework\base\CModule.php(394): CDbConnection->init()
+#3 E:\xampp\htdocs\yii\yii1\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 E:\xampp\htdocs\yii\yii1\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 E:\xampp\htdocs\yii\yii1\framework\web\CFormModel.php(39): ModelCode->init()
+#6 E:\xampp\htdocs\yii\yii1\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 E:\xampp\htdocs\yii\yii1\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 E:\xampp\htdocs\yii\yii1\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 E:\xampp\htdocs\yii\yii1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 E:\xampp\htdocs\yii\yii1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 E:\xampp\htdocs\yii\yii1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(282): CController->run('index')
+#13 E:\xampp\htdocs\yii\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 E:\xampp\htdocs\yii\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii\yii1\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii1/demos/demo-IterativeRedux/index.php/gii/model/index
+HTTP_REFERER=http://localhost/yii/yii1/demos/demo-IterativeRedux/index.php/gii/default/index
+---
+2017/04/28 06:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cusomer".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('cusomer')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/cusomer
+---
+2017/04/28 06:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cusromer".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('cusromer')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/cusromer
+---
+2017/04/28 06:37:31 [error] [exception.CException] exception 'CException' with message 'CustomerController contains improperly nested widget tags in its view "E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php". A CActiveForm widget does not have an endWidget() call.' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php:101
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(8): CController->render('index', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 06:59:10 [error] [exception.CException] exception 'CException' with message 'CustomerController contains improperly nested widget tags in its view "E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php". A CActiveForm widget does not have an endWidget() call.' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php:101
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(8): CController->render('index', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 06:59:36 [error] [exception.CException] exception 'CException' with message 'CustomerController contains improperly nested widget tags in its view "E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php". A CActiveForm widget does not have an endWidget() call.' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php:101
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(8): CController->render('index', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:01:01 [error] [exception.CException] exception 'CException' with message 'CustomerController contains improperly nested widget tags in its view "E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php". A CActiveForm widget does not have an endWidget() call.' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php:101
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CController->render('index', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:02:11 [error] [exception.CException] exception 'CException' with message 'CustomerController contains improperly nested widget tags in its view "E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php". A CActiveForm widget does not have an endWidget() call.' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php:101
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CController->render('index', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:02:27 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii\yii1tutorial\framework\web\helpers\CHtml.php:2729)
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(126): require()
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(95): CustomerController->renderInternal()
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CustomerController->renderFile()
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CustomerController->renderPartial()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CustomerController->render()
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CustomerController->runAction()
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CustomerController->runActionWithFilters()
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CustomerController->run()
+#10 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+in E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php (26)
+in E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php (11)
+in E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php (13)
+2017/04/28 07:03:05 [error] [exception.CException] exception 'CException' with message 'CustomerController contains improperly nested widget tags in its view "E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php". A CActiveForm widget does not have an endWidget() call.' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php:101
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CController->render('index', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:03:31 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.id" is not defined.' in E:\xampp\htdocs\yii\yii1tutorial\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\helpers\CHtml.php(2729): CComponent->__get('id')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\helpers\CHtml.php(1982): CHtml::resolveValue(Object(ContactForm), 'id')
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php(26): CHtml::activeDropDownList(Object(ContactForm), 'id', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(126): require('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\\xampp\\htdocs...', Array, true)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CController->render('index', Array)
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#13 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#14 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:03:59 [error] [php] Missing argument 3 for CHtml::activeDropDownList(), called in E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php on line 26 and defined (E:\xampp\htdocs\yii\yii1tutorial\framework\web\helpers\CHtml.php:1979)
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(95): CustomerController->renderInternal()
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CustomerController->renderFile()
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CustomerController->renderPartial()
+#3 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CustomerController->render()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CustomerController->runAction()
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CustomerController->runActionWithFilters()
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CustomerController->run()
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+in E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php (26)
+in E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php (11)
+in E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php (13)
+2017/04/28 07:04:30 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.id" is not defined.' in E:\xampp\htdocs\yii\yii1tutorial\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\helpers\CHtml.php(2729): CComponent->__get('id')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\helpers\CHtml.php(1982): CHtml::resolveValue(Object(ContactForm), 'id')
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php(26): CHtml::activeDropDownList(Object(ContactForm), 'id', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(126): require('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\\xampp\\htdocs...', Array, true)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CController->render('index', Array)
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#13 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#14 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:04:41 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.user_id" is not defined.' in E:\xampp\htdocs\yii\yii1tutorial\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\helpers\CHtml.php(2729): CComponent->__get('user_id')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\helpers\CHtml.php(1982): CHtml::resolveValue(Object(ContactForm), 'user_id')
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php(26): CHtml::activeDropDownList(Object(ContactForm), 'user_id', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(126): require('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\\xampp\\htdocs...', Array, true)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CController->render('index', Array)
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#13 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#14 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:05:33 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.id" is not defined.' in E:\xampp\htdocs\yii\yii1tutorial\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\helpers\CHtml.php(2729): CComponent->__get('id')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\helpers\CHtml.php(1982): CHtml::resolveValue(Object(ContactForm), 'id')
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php(26): CHtml::activeDropDownList(Object(ContactForm), 'id', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(126): require('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\\xampp\\htdocs...', Array, true)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CController->render('index', Array)
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#13 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#14 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:05:50 [error] [exception.CException] exception 'CException' with message 'CustomerController contains improperly nested widget tags in its view "E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php". A CActiveForm widget does not have an endWidget() call.' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php:101
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CController->render('index', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:10:25 [error] [exception.CException] exception 'CException' with message 'CustomerController contains improperly nested widget tags in its view "E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\views\customer\index.php". A CActiveForm widget does not have an endWidget() call.' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CBaseController.php:101
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(869): CBaseController->renderFile('E:\\xampp\\htdocs...', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\protected\controllers\CustomerController.php(11): CController->render('index', Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customer')
+#9 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:23:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/password".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('users/password')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/users/password
+HTTP_REFERER=http://localhost/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:26:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/password".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('users/password')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/users/password
+HTTP_REFERER=http://localhost/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:26:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/password".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('users/password')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/users/password
+HTTP_REFERER=http://localhost/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users/password".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('users/password')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/users/password
+HTTP_REFERER=http://localhost/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:26:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customers/password".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customers/passw...')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customers/password
+HTTP_REFERER=http://localhost/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:27:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customers/password".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customers/passw...')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customers/password
+HTTP_REFERER=http://localhost/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customers/password".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customers/passw...')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customers/password
+HTTP_REFERER=http://localhost/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:27:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "password".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('password')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/password
+---
+2017/04/28 07:28:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customers/password".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customers/passw...')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customers/password
+HTTP_REFERER=http://localhost/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customer
+---
+2017/04/28 07:28:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "customers/password".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('customers/passw...')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\demo-IterativeRedux\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/demo-IterativeRedux/index.php/customers/password
+---
+2017/04/28 18:51:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/1
+---
+2017/04/28 18:52:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tutorial1".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial1')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial1
+---
+2017/04/28 18:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/view')
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/1
+---
+2017/04/28 18:52:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/view')
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/1
+---
+2017/04/28 18:52:44 [error] [exception.CException] exception 'CException' with message 'TutorialController cannot find the requested view "index".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:878
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\protected\controllers\TutorialController.php(10): CController->render('index', Array)
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): TutorialController->actionIndex()
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial
+---
+2017/04/28 18:53:05 [error] [exception.CException] exception 'CException' with message 'TutorialController cannot find the requested view "index".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:878
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\protected\controllers\TutorialController.php(10): CController->render('index', Array)
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): TutorialController->actionIndex()
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('')
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/
+---
+2017/04/28 18:53:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/view')
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/1
+---
+2017/04/28 18:54:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/view')
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/1
+---
+2017/04/28 18:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/view')
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/1
+---
+2017/04/28 18:54:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/view')
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/1
+---
+2017/04/28 18:54:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/view')
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/1
+---
+2017/04/28 18:55:14 [error] [exception.CException] exception 'CException' with message 'TutorialController cannot find the requested view "tutorial/dropDownList/1".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:878
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(782): CController->renderPartial('tutorial/dropDo...', Array, true)
+#1 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\protected\controllers\TutorialController.php(17): CController->render('tutorial/dropDo...', Array)
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): TutorialController->actionTutorial1()
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('tutorial1')
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/tutori...')
+#8 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/tutorial1
+---
+2017/04/28 18:58:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/view')
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/1
+HTTP_REFERER=http://localhost/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/tutorial1
+---
+2017/04/28 18:59:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tutorial2".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(270): CController->missingAction('tutorial2')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('tutorial2')
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/tutori...')
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/tutorial2
+HTTP_REFERER=http://localhost/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/tutorial1
+---
+2017/04/28 19:03:37 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\protected\controllers\TutorialController.php:25)
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): TutorialController->runAction()
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): TutorialController->runActionWithFilters()
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): TutorialController->run()
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/tutorial2
+in E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\protected\controllers\TutorialController.php (25)
+in E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php (13)
+2017/04/28 19:03:41 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\protected\controllers\TutorialController.php:25)
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): TutorialController->runAction()
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): TutorialController->runActionWithFilters()
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): TutorialController->run()
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/tutorial2
+in E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\protected\controllers\TutorialController.php (25)
+in E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php (13)
+2017/04/28 19:04:13 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\protected\controllers\TutorialController.php:25)
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): TutorialController->runAction()
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): TutorialController->runActionWithFilters()
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): TutorialController->run()
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/tutorial2
+in E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\protected\controllers\TutorialController.php (25)
+in E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php (13)
+2017/05/01 04:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/view')
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/2
+---
+2017/05/01 04:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tutorial2".' in E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial2')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial2
+---
+2017/05/01 04:06:01 [error] [exception.CException] exception 'CException' with message 'Property "TutorialController.page_title" is not defined.' in E:\xampp\htdocs\yii\yii1tutorial\framework\base\CComponent.php:173
+Stack trace:
+#0 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\protected\controllers\TutorialController.php(12): CComponent->__set('page_title', 'Yii dependent d...')
+#1 E:\xampp\htdocs\yii\yii1tutorial\framework\web\actions\CInlineAction.php(49): TutorialController->actionTutorial1()
+#2 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(282): CController->run('tutorial1')
+#6 E:\xampp\htdocs\yii\yii1tutorial\framework\web\CWebApplication.php(141): CWebApplication->runController('tutorial/tutori...')
+#7 E:\xampp\htdocs\yii\yii1tutorial\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 E:\xampp\htdocs\yii\yii1tutorial\demos\yii1tutorial\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/yii1tutorial/demos/yii1tutorial/index.php/tutorial/tutorial1/ajax
+---
