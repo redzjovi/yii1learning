@@ -3,13 +3,12 @@ class TutorialController extends Controller
 {
 	public function actionIndex()
 	{
-        echo 'index';
+        $this->render('index');
 	}
 
     public function actionTutorial1()
 	{
         $model = new Users;
-        $this->pageTitle = 'Yii dependent dropdown ajax to text';
         $this->render('dropDownList/1', ['model' => $model]);
 	}
 

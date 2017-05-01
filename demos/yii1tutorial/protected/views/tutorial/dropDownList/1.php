@@ -1,3 +1,9 @@
+<?php $this->pageTitle = 'Yii dependent dropdown ajax to text';
+$this->breadcrumbs = [
+    'Tutorial' => ['/tutorial'],
+    $this->pageTitle,
+]; ?>
+
 <?php $form = $this->beginWidget('CActiveForm'); ?>
 
 <div class="row">
