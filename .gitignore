@@ -2,5 +2,6 @@
 /demos/demo/protected/runtime/*
 /demos/demo-IterativeRedux/assets/*
 /demos/demo-IterativeRedux/protected/runtime/*
+/demos/yii1tutorial/vendor/*
 
 .tags

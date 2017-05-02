@@ -3,6 +3,7 @@ class TutorialController extends Controller
 {
 	public function actionIndex()
 	{
+        dump(['1', '2']);
         $this->render('index');
 	}
 
