@@ -3,7 +3,6 @@ class TutorialController extends Controller
 {
 	public function actionIndex()
 	{
-        dump(['1', '2']);
         $this->render('index');
 	}
 
@@ -24,6 +23,43 @@ class TutorialController extends Controller
                 'password' => $user->password,
             ]);
 
+            Yii::app()->end();
+        }
+    }
+    
+    public function actionTutorial3()
+    {
+        $model = new TutorialForm('tutorial3');
+        $model->attributes = Yii::app()->request->getPost('TutorialForm');
+        
+        if (Yii::app()->request->isPostRequest && $model->validate()) {
+            echo 'success';
+            Yii::app()->end();
+        }
+        
+        $this->render('validation/1', ['model' => $model]);
+    }
+    
+    public function actionTutorial4()
+    {
+        if (Yii::app()->request->isAjaxRequest) {
+            $model = new TutorialForm('tutorial3');
+            $model->attributes = ['id' => Yii::app()->request->getParam('id')];
+            
+            echo CJSON::encode([
+                'password_label' => CHtml::activeLabel(
+                    $model,
+                    'password',
+                    [
+                        'id' => 'password',
+                        'label' =>
+                            $model->getAttributeLabel('password').
+                            ($model->passwordHasRequired() === true ? ' <span class="required">*</span>' : ''),
+                    ]
+                ),
+                'password_required' => $model->passwordHasRequired(),
+            ]);
+            
             Yii::app()->end();
         }
     }
