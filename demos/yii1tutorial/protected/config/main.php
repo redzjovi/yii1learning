@@ -47,7 +47,7 @@ return array(
 			),
             'showScriptName' => false,
 		),
-		
+
 		// database settings are configured in database.php
 		'db'=>require(dirname(__FILE__).'/database.php'),
 
@@ -63,6 +63,10 @@ return array(
 					'class'=>'CFileLogRoute',
 					'levels'=>'error, warning',
 				),
+                array(
+                    'class' => 'CProfileLogRoute',
+                    'report' => 'callstack',
+                ),
 				// uncomment the following to show log messages on web pages
 				/*
 				array(
